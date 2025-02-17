@@ -49,12 +49,12 @@ classdef sli
                 obj.reciprocal = 1;
             end
             obj.level = 0;
-            while (temp >= 1)
-                obj.level = obj.level + 1;
-                temp = log(temp);
-            end
             obj.index = temp;
-            obj = update_double(obj);
+            while (obj.index >= 1)
+                obj.level = obj.level + 1;
+                obj.index = log(obj.index);
+                obj = update_double(obj);
+            end
             obj = obj(1);
         end
 
