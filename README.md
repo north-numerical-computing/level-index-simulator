@@ -1,4 +1,4 @@
-# level-index-simulator
+a# level-index-simulator
 
 # `sli` - A custom precision MATLAB symmetric level-index arithmetic simulator.
 
@@ -40,7 +40,7 @@ The code was developed on MATLAB 2023b. Experiments make use of the [CPFloat](ht
 
 ## References
 
-[1] Mantas Mikaitis. [*MATLAB Simulator of Level-Index Arithmetic*](https://arxiv.org/abs/2402.02301). arXiv:2402.02301 [cs.MS]. Feb. 2024. Accepted for ARITH 2024.
+[1] Mantas Mikaitis. [*MATLAB Simulator of Level-Index Arithmetic*](https://ieeexplore.ieee.org/document/10579434). Proc. 31st IEEE Symp. Comput. Arithmetic. Málaga, Spain. Jul. 2024.
 
 ## Licence
 
